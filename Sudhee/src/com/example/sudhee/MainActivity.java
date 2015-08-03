@@ -10,7 +10,7 @@ public class MainActivity extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-    	kya  hai re ghantesh
+    	kya  hai re ghantesh dafuq
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
