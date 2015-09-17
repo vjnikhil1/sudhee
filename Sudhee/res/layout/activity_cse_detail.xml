@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sudhee.CSE_detail" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="100dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="27dp"
+                android:textColor="#795548"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="italic"
+                
+                android:textSize="25dp"
+                android:text="Where to Register "
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="10sp"
+        android:background="#795548"
+   		android:textColor="@android:color/white"
+        android:text=" Register here " />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="55dp"
+                        android:fontFamily="sans-serif-condensed"
+                android:textStyle="italic"
+                
+        android:textColor="#795548"
+        android:textSize="25dp"
+        android:text="Where to go"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:background="#795548"
+        android:layout_marginTop="10sp"
+        android:text=" Way to go "
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="56dp"
+        android:textSize="25dp"
+                        android:fontFamily="sans-serif-condensed"
+                android:textStyle="italic"
+                
+        android:textColor="#795548"
+        android:text="Whom to contact "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/button1"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="10sp"
+        android:background="#795548"
+        android:text=" Contact Himaja "
+        android:textColor="@android:color/white" />
+            
+        </LinearLayout>
+        
+    </ScrollView>
+
+</RelativeLayout>
